@@ -32,4 +32,4 @@ report(data)
 if (data.removeStaleReports === 'true') await stale(data)
 
 // post new comment
-post(data)
+if (data.postNoChanges === 'true' || data.sumChanges > 0) post(data)

@@ -54,6 +54,7 @@ jobs:
 | `show-diff`            | ❌        | `false`                    | include the diff view in the final output?                                         |
 | `remove-stale-reports` | ❌        | `false`                    | remove report comments for old commits?                                            |
 | `custom-header`        | ❌        | `:robot: Terraform Report` | The header text for the github comment                                             |
+| `post-no-changes`       | ❌        | `true`                    | Post comment if thre were no changes                                             |
 
 ## Examples
 

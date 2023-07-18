@@ -39,6 +39,11 @@ inputs:
     default: ":robot: Terraform Report"
     required: false
 
+  post-no-changes:
+    description: post a comment even if there are no changes?
+    default: "true"
+    required: false
+
 runs:
   using: node16
   main: dist/index.js
